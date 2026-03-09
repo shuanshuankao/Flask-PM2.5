@@ -25,10 +25,10 @@ def open_db():
     global conn, cursor
     try:
         conn = pymysql.connect(
-            host="mysql-39175e7e-mdream-81ff.i.aivencloud.com",
+            host="mysql-10fe1d0c-shuanshuankao1222.i.aivencloud.com",
             user="avnadmin",
-            password="AVNS_VUfo1XoxZwEp-i2sOw8",
-            port=18633,
+            password="AVNS_PWEYETUyDIFHf92sRgh",
+            port=10154,
             database="defaultdb",
         )
 
